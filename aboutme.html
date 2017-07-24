@@ -25,9 +25,27 @@ function myFunction() {
 
 <h4> Likes </h4>
 <p> I like chocolate.</p>
-<img src="https://www.wellesleyfreelibrary.org/wp-content/uploads/2017/02/chocolate.jpg" style="width:300px;height:200px;">
+  <img onmouseover="bigImg(this)"onmouseout="normalImg(this)" border="0"
+src="https://www.wellesleyfreelibrary.org/wp-content/uploads/2017/02/chocolate.jpg" width="300px" height = "200px">
 
-<p style="font-size:100%;"> I like to sleep.</p>
+
+
+<script>
+function bigImg(x) {
+    
+    x.style.height= "400px";
+    x.style.width = "500px";
+}
+
+function normalImg(x) {
+    x.style.height = "200px";
+    x.style.width = "300px";
+}
+</script>
+
+
+
+<p> I like to sleep.</p>
 <img src="https://s-media-cache-ak0.pinimg.com/originals/73/4a/b8/734ab8ed253798a8816df10f0b8aa62a.jpg" style="width:350px;height:400px;">
 
 <h5><b> Dislikes</b></h5>
