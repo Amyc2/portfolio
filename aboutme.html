@@ -4,7 +4,7 @@
 <style>
   h1 {text-align:center;}
   button{background-color: pink;}
-  
+  #div1 {  font-size:38px;}
 </style>
 <title>About me</title>
 
@@ -42,12 +42,12 @@ function normalImg(x) {
     x.style.width = "300px";
 }
 </script>
-
+<script>
+  function hourglass() 
+  {  var a;  a = document.getElementById("div1");  a.innerHTML = "&#xf251;";  setTimeout(function () {      a.innerHTML = "&#xf252;";    }, 1000);  setTimeout(function () {      a.innerHTML = "&#xf253;";    }, 2000);}hourglass();setInterval(hourglass, 3000);</script>
   <p> I like to sleep.</p>
 <img src="https://s-media-cache-ak0.pinimg.com/originals/73/4a/b8/734ab8ed253798a8816df10f0b8aa62a.jpg" style="width:250px;height:300px;">
 
-
-  
 
 <h5><b> Dislikes</b></h5>
 <p>  I hate bad test grades. </p>
