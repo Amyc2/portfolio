@@ -33,7 +33,7 @@ body {margin:0;}
 <body>
 
 <div class="topnav">
-  <a class="aboutme.html" href="#home">Home</a>
+  <a class="active" href="aboutme.html">Home</a>
   <a href="pictures.html">Pictures/Gifs &#9829</a>
  
 </div>
